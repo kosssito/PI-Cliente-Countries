@@ -1,0 +1,35 @@
+.container{
+   
+    background: url('avtivity.png');
+}
+
+.form{
+display: flex;
+flex-direction: column;
+height: 600px;
+width:  500px;
+background-color: rgba(204, 204, 204, 0.548);
+position: relative;
+left: 30%;
+border-radius: 50px;
+margin-top: 60px;
+bottom: 30px;
+font-weight: bold;
+ 
+}
+
+.err{
+    border: solid rgb(164, 151, 7) 5px;
+}
+.input{
+    border: solid rgb(2, 161, 13) 5px;
+}
+
+.error{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    
+    height: 500px;
+    width: 400px;
+}
