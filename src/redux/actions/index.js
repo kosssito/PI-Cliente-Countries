@@ -12,7 +12,7 @@ export const CLEAN_ACTIVITY_SEARCHER = "CLEAN_ACTIVITY_SEARCHER";
 export const SEARCH_COUNTRY = "SEARCH_COUNTRY";
 export const GET_ACTIVITY = "GET_ACTIVITY";
 
-const URL_SERVER = process.env.URL_SERVER || "http://localhost:3001/";
+const URL_SERVER =  "http://localhost:3001/" || process.env.URL_SERVER  ;
 
 export const getAllCountries = () => {
   return (dispatch) => {
